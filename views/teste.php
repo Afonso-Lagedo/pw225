@@ -1,10 +1,26 @@
-ROLA
+<div>
+	
+<form method="post" action="processa_aluno.php">
+	<label>Nome Aluno:</label><br>
+	<input type="text" name="nome" placeholder="Digite o nome do aluno">
+	<br><br>
+	<label>OBS:</label><br>
+	<input type="text" name="obs" placeholder="Digite a data de nascimento">
+	<br><br>
+	<input type="submit" value="Inserir aluno">
+</form>
+</div>
+
+
+
+
+
 
 <a href="?pagina=teste2">CU teste2</a>
 
 
 
-<a href="?pagina=inserir_aluno">Inserir novo aluno</a>
+<a href="?pagina=inserir_aluno">TESTE</a>
 
 <table style="border: 1px solid #000; width:100% " >
 	<thead>
