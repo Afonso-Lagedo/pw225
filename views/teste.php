@@ -27,6 +27,7 @@
 		<tr>
 			<th>Nome </th>
 			<th>OBS</th>
+			<th>Excluir</th>
 			
 		</tr>
 	</thead>
@@ -36,6 +37,9 @@
 			while($linha = mysqli_fetch_array($consulta_alunos)){
 				echo'<tr><td>'.$linha['nome'].'</td>';
 				echo'<td>'.$linha['obs'].'</td>	';
+				echo '<td>
+					<a href="processa_deleta_aluno.php?cu='.$linha['id'].'">Deletar</a></td>
+				</tr>'	;
 			?>
 		<?php
 			}
